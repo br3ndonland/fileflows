@@ -1,5 +1,5 @@
 FROM alpine:edge
-ARG DOVI_TOOL_VERSION=2.1.1
+ARG DOVI_TOOL_VERSION=2.1.2
 ARG DOVI_TOOL_ARCH=x86_64-unknown-linux-musl
 
 LABEL org.opencontainers.image.description "This image provides a containerized version of the dovi_tool for use with Fileflows to convert Dolby Vision profile 7 to profile 8."
